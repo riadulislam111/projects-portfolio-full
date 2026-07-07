@@ -1,11 +1,25 @@
+/* Reset style  */
 *{
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 
 /* common style btn  */
 
+.outline-btn{
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
 .common-btn{
     background-color: #fd6e0a;
     padding: 8px 15px;
@@ -16,6 +30,12 @@
     border: none;
     cursor: pointer;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 
 header {
 
@@ -23,8 +43,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+
     padding: 12px 0;
 
 }
@@ -49,4 +68,29 @@ ul {
 
 ul li a {
     text-decoration: none;
+}
+
+/* hero-section-style  */
+.hero-parent-root{
+    background-color:#FFF8F3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-left p-1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-btn-parent {
+    margin-top: 12px;
 }
