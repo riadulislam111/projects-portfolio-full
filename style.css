@@ -217,3 +217,34 @@ footer form input ,footer form textarea{
     color: #fd6e0a;
     font-size: 25px;
 }
+
+/* /* summary section css  */
+.summary-main{
+    margin: 132px auto;
+}
+.summary-parent {
+    display: flex;
+    margin: 20px 0;
+    padding: 20px 20px;
+    align-items: center;
+}
+.summary-parent h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+.summary-parent h5, p {
+    color: #757575;
+}
+.summary-hading{
+   text-align: center;
+   font-size: 40px;
+   color: #474747;
+}
+
+.download-btn{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
