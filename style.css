@@ -183,3 +183,37 @@ text-align: center;
 .box-6{
     grid-area: six;
 }
+
+/* footer style  */
+footer{
+    text-align: center;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer-left p{
+margin: 10px 0;
+}
+footer form {
+    padding: 20px;
+}
+footer form input ,footer form textarea{
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.icon-parent span {
+    color: #fd6e0a;
+    font-size: 25px;
+}
